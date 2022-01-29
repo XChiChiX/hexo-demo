@@ -7,13 +7,13 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: XChiChiX
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com/hexo-demo
+url: http://github.com/XChiChiX/hexo-demo
 root: /hexo-demo/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -106,3 +106,22 @@ deploy:
   type: git
   repo: https://github.com/XChiChiX/hexo-demo.git
   branch: gh-pages
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true 
+    date: false 
+    path: true 
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: false

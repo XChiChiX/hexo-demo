@@ -20,8 +20,8 @@ imageCDN: # 图片 CDN 功能
 iconlib: # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
 
 search: 
-  type: engine # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
-  url: https://cn.bing.com/search?q=site:nexmoe.com # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
+  type: local # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
+  #url: https://www.google.com/search?q=github.io/XChiChiX/hexo-demo # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
   id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
 
 cdn: # 这里可以修改站点使用的库的CDN
@@ -35,12 +35,12 @@ cdn: # 这里可以修改站点使用的库的CDN
     js: https://cdn.jsdelivr.net/npm/valine
 
 menu:
-  回到首页: 
+  回到首頁: 
     - /
     - icon-home
-#  文章归档:  # 使用说明：https://docs.nexmoe.com/article/archive
-#    - /archive.html
-#    - icon-container
+  文章歸檔:  # 使用说明：https://docs.nexmoe.com/article/archive
+    - /archive.html
+    - icon-container
   關於:
     - /about.html
     - icon-info-circle
@@ -59,21 +59,20 @@ widgets:
 maxTagcloud: 0  # 标签云组件显示的标签数量，0 表示不限制
 
 social:
-  QQ群: 
+  推特: 
     - https://jq.qq.com/?_wv=1027&k=5CfKHun
-    - icon-QQ
-    - rgb(249, 174, 8)
-    - rgba(249, 174, 8, .1)
-  哔哩哔哩:
+    - icon-twitter
+    - rgb(0, 191, 255)
+  youtube:
     - https://space.bilibili.com/20238211
-    - icon-bilibili
-    - rgb(231, 106, 141)
-    - rgba(231, 106, 141, .15)
+    - icon-youtube
+    - rgb(255, 0, 0)
+    #- rgba(231, 106, 141, .15)
   GitHub:
     - https://github.com/XChiChiX/
     - icon-github
-    - rgb(25, 23, 23)
-    - rgba(25, 23, 23, .15)
+    - rgb(255, 255, 255)
+    #- rgba(25, 23, 23, .15)
 
 # 自定义样式，启用后可在站点的source文件夹下新建custom.css自定义站点样式
 customstyle: false  
@@ -179,3 +178,6 @@ widgetLink: #链接组件
 
 # 自定义侧边栏尾部内容
 sidebar: ''
+
+root: /hexo-demo/
+
