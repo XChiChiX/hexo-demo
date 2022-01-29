@@ -123,7 +123,7 @@ analytics:
   gtm_container_id: #<ID>
 
 # 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere,DiscussBot 使用 false 可以关闭
-comment: gitalk
+comment: valine
 gitalk:
   admin: nexmoe # 拥有对该repo进行操作的 GitHub username
   owner: nexmoe # 持有该 repo 的 GitHub username
@@ -136,8 +136,8 @@ gitment:
   clientID: 80b2453b6d5f37ad6225 # GitHub Client ID
   clientSecret: 43e99fa852795c9a7b3eb924b2558c64b84bbdeb # GitHub Client Secret
 valine: 
-  appId: <API_ID> # leancloud application app id
-  appKey: <API_Key> # leancloud application app key
+  appId: CctKUsgSVXLe53CPFxqWsq0J-MdYXbMMI # leancloud application app id
+  appKey: YhmpzvsuoQDtFiCs9Hv6m23O # leancloud application app key
 disqus:
   shortname: <shortname> # 你的 Disqus shortname
 disqusjs:
@@ -161,7 +161,7 @@ DiscussBot:
   icons: 0 # 图标主题
   diff: 0 # 每位用户name不同颜色
 
-copyright: '<strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可'
+copyright: '<strong>版權聲明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 協議進行許可'
 copyTip: "著作权归作者所有。\n商业转载请联系作者获得授权，非商业转载请注明出处。\n来源：%url" # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用
 
 # achive widget behavior
@@ -178,4 +178,4 @@ widgetLink: #链接组件
     link : <url>
 
 # 自定义侧边栏尾部内容
-sidebar: '<br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a><script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>'
+sidebar: ''
